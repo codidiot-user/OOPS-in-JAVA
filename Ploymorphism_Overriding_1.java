@@ -1,6 +1,6 @@
 class Animal{
     void dog_nature(){ // THE METHOD NAME SHOULD SAME TO DO PERFORM OVERRIDE FUNCTION
-        System.out.println("Bark");
+        System.out.println("Animal will make sound");
     }
 }
 class Dog extends Animal{
