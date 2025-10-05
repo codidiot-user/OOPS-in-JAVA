@@ -16,12 +16,12 @@ class Student {
 	void greet() {
 		System.out.println("Hello! This is "+name);
 	}
-	Student(){  // CONSTRUCTOR class
+	Student(){  // CONSTRUCTOR class WHICH IS A DEFAULT METHOD
 		this.rno = 21;
 		this.name = "Logesh S";
 		this.mark = 82.1f;
 //	}
-	Student(int rno, String name, double mark){
+	Student(int rno, String name, double mark){ // WHEN ARGUMENTS PASSED
 		this.rno = rno;
 		this.name = name;
 		this.mark = mark;
